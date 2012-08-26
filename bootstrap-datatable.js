@@ -192,7 +192,7 @@
                 .addClass("progress progress-striped active")
                 .append($('<div class="bar" style="width: 100%"></div>'))
             )
-            .appendTo(document.body)
+            .appendTo($e.parent());
         }
 
         if(show) {

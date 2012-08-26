@@ -863,6 +863,8 @@
       o.currentPage--;
       offset = o.currentPage * o.perPage
     }
+    
+    if(o.currentPage == 0) o.currentPage = 1;
 
     if($(this).popover) $(this).popover('hide')
 
